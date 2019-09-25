@@ -1,0 +1,29 @@
+print("hello, sir please tell me your age")
+var8 = 123456789
+var7 = "yes"
+var9 = "no"
+var1 = int(input())
+var2 = 18
+if 4<var1<99:
+    if var1<var2:
+        print("you can not vote sorry"
+          "sorry better try next year")
+    elif var1>var2:
+        print("you can vote"
+              "now tell me that do you have aaqhar card")
+        var5 = str(input())
+        if var5==var7:
+            print("tell me your adhar no")
+            var4 = int(input())
+        if var5 == var9:
+            print("go and make your adhar card then come to us")
+        if var4==var8:
+                print("i guess from my data your name is satyam sundram"
+                      " hey you satyam you are eligible to vote")
+        else:
+            print("wrong input")
+
+    elif var1==var2:
+        print("come we wiil see you physically")
+else:
+    print("wrong age")
